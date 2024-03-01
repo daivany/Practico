@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: plum;
+  }
+  
+  header {
+    background-color:beige;
+    padding: 25px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color:black;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: plum;
+  }
+
+  .contenedor h2 {
+    margin-top: 10px;
+    color: black;
+  }
+.contacto-headings h2 {
+    font-size: 2em;
+    margin-left: 50px;
+
+  }
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+  }  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+    background-color:#F4F1BB ;
+    border-radius: 20px;
+  }
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    color:black;
+  }
+.form textarea {
+    height: 150px;
+    background: none;
+    color: black;
+    padding: 1.5em;
+    border: 1px solid #fff;
+  }
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: pink;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+.btn-submit:hover {
+    background-color: #fff;
+  }
+
+  
